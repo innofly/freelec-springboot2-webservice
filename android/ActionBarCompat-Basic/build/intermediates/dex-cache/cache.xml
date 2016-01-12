@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/pre-dexed/debug/classes-6d7f38d577437a3976852f8ec31438d58f5e7288.jar" />
+    </item>
+    <item
+        jar="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/pre-dexed/debug/classes-bb4d050e43aaf3c71573b553ea71bb0a728888b5.jar" />
+    </item>
+    <item
+        jar="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-77d0e9a991749d84b8fefcbcf365da6cd4973fd7.jar" />
+    </item>
+    <item
+        jar="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/pre-dexed/debug/classes-5ee6174f9cd3e95e5d57cb89cce4fc8a3f855e7c.jar" />
+    </item>
+    <item
+        jar="/Users/bs/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-2259053dc03de55589c95abbe275eef64301dc29.jar" />
+    </item>
+    <item
+        jar="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1618fd467fb5971c394741e8976ededb97aaee0a">
+        <dex dex="/Users/bs/development/Git/android/ActionBarCompat-Basic/Application/build/intermediates/pre-dexed/debug/classes-d9b0a670098e793effd82a4dfc93c5f80badfd16.jar" />
+    </item>
+
+</items>

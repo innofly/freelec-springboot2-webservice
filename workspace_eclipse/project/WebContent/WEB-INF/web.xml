@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>project</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+<!-- 톰캣 6부터는 설정해줘도 되고 안해줘도 됨 
+  <resource-ref>					
+    <description>DB Connection</description>				
+	<res-ref-name>jdbc/mysql</res-ref-name>				
+	<res-auth>Container</res-auth>				
+  </resource-ref>	
+ -->
+
+	<!-- 메세지 -->
+   <servlet>
+  	<servlet-name>MessageServlet</servlet-name>  	                         
+  	<servlet-class>com.study.message.MessageServlet</servlet-class>	
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/message/*</url-pattern>
+  </servlet-mapping> 
+
+   <!-- 메인페이지 -->
+   <servlet>
+  	<servlet-name>MainServlet</servlet-name>  	                         
+  	<servlet-class>com.study.main.MainServlet</servlet-class>	
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MainServlet</servlet-name>
+    <url-pattern>/main/*</url-pattern>
+  </servlet-mapping> 
+ 
+  <!-- 회원가입 및 로그인 관련 -->
+   <servlet>
+  	<servlet-name>MemberServlet</servlet-name>  	                         
+  	<servlet-class>com.study.member.MemberServlet</servlet-class>	
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MemberServlet</servlet-name>
+    <url-pattern>/member/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- 자유게시판 -->
+   <servlet>
+  	<servlet-name>BoardServlet</servlet-name>  	                         
+  	<servlet-class>com.study.board.BoardServlet</servlet-class>	
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BoardServlet</servlet-name>
+    <url-pattern>/board/*</url-pattern>
+  </servlet-mapping>
+ 
+<!-- JSTL 사용시 공백 제거 -->
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <trim-directive-whitespaces>true</trim-directive-whitespaces>
+        </jsp-property-group>
+    </jsp-config>
+    
+<!-- EncodingFilter-->
+	<filter>
+		<filter-name>encodingFilter</filter-name>
+		<filter-class>com.util.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>charset</param-name>
+			<param-value>utf-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> 
+	 
+</web-app>

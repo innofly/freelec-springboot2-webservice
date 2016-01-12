@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+   <item android:id="@+id/startMenu"
+    android:orderInCategory="1"
+    android:showAsAction="never"
+    android:title="시작"
+    tools:ignore="AppCompatResource" />
+    <item android:id="@+id/pauseMenu"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="일시정지"
+        tools:ignore="AppCompatResource" />
+
+</menu>
